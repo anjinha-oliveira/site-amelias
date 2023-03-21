@@ -7,37 +7,37 @@
 body {
     background-color: white;
     font-family: 'Courier New', Courier, monospace, serif;
+    margin: auto;
+    
+    
 }
 
 .cabecalho {
-    display: flow-root;
-    padding-inline-start: 250px;
     font-size: x-large;
+    width: auto;
 }
 
 .principal {
-    margin: 30px;
+    margin: 3px;
     display: flex;
-    background-color: #EBF2F2;
 }
 
 img {
-    margin-inline-start: 80px;
-    padding-top: 40px;
+    
 }
 
 h1 {
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
-    margin-top: 100px;
-    padding-inline-end: 50px;
+    
 }
 
 h2{
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
+    padding-inline-end: 8px;
 }
 
 li {
@@ -57,9 +57,21 @@ ul {
     display: initial;
     text-align: center;
 }
+
+a {
+    text-decoration: solid;
+    color: white;
+}
 div.historia {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 15px;
-    display: flow-root;
+    text-indent: 18px;
     background-color: #EBF2F2;
+    width: auto;
+    text-align: justify;
+    margin: 13px;
+}
+
+p {
+    padding: 13px;
+    margin: auto;
 }
