@@ -12,7 +12,6 @@ body {
 
 header {
     font-size: x-large;
-    width: 10px auto;
     display: flex;
     margin: auto;
     padding: 30px
