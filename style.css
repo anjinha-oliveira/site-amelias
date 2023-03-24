@@ -10,12 +10,15 @@ body {
     margin: auto;   
 }
 
-.cabecalho {
+header {
     font-size: x-large;
-    width: auto;
+    width: 10px auto;
+    display: flex;
+    margin: auto;
+    padding: 30px
 }
 
-.principal {
+main {
     margin: 3px;
     display: flex;
 }
@@ -24,6 +27,7 @@ h1 {
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
+    margin: auto;
     
 }
 
@@ -31,31 +35,20 @@ h2{
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
-    padding-inline-end: 8px;
+    margin: auto;
 }
 
 li {
-    line-height: 2.5;
     text-decoration: none;
     text-align: center;
     background-color: #0D0D0D;
     color: white;
-    display: flow-root;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 10px 20px;
-
 }
 ul {
     list-style: none;
-    line-height: 2;
-    display: initial;
-    text-align: center;
 }
 
-a {
-    text-decoration: solid;
-    color: white;
-}
 div.historia {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-indent: 18px;
@@ -68,4 +61,9 @@ div.historia {
 p {
     padding: 13px;
     margin: auto;
+}
+footer {
+    text-align: center;
+    background-color: bisque;
+    padding: 14px;
 }
