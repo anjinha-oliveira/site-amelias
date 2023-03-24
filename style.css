@@ -20,6 +20,7 @@ header {
 main {
     margin: 3px;
     display: flex;
+    padding: 26px;
 }
 
 h1 {
