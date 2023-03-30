@@ -10,11 +10,26 @@ body {
     margin: auto;   
 }
 
-header {
+.header {
     font-size: x-large;
     display: flex;
     margin: auto;
-    padding: 30px
+    padding: 30px;
+    flex-direction: column;
+
+    @media screen (min-width: 600px){
+        flex-direction: row;
+    }
+}
+.header img {
+    margin-bottom: 30px;
+    width: 100%;
+    @media screen (min-width: 600px){
+        margin-right: 30px;
+        margin-bottom: 0;
+
+        
+    }
 }
 
 main {
@@ -27,9 +42,9 @@ h1 {
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
-    margin: auto;
-    
+    margin: auto;   
 }
+
 
 h2{
     font-family: 'amelias';
@@ -40,35 +55,15 @@ h2{
 
 nav {
     background-color: black;
-    padding: 1px;
-    text-align: center;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
 }
 
 a {
     color: white;
     text-decoration: none;
     font-family: math, sans-serif;
-}
-
-ul > a:hover {
-    color: rgb(205, 82, 205);
-    text-decoration: underline;
-}
-
-
-div.historia {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent: 18px;
-    background-color: #EBF2F2;
-    width: auto;
-    text-align: justify;
-    margin: 13px;
-}
-
-section > p {
-    padding: 15px 14px;
-    margin: auto;
-    text-indent: 6px;
 }
 
 footer {
@@ -79,4 +74,8 @@ footer {
 footer > a:hover {
     color: rgb(205, 82, 205);
     text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }
