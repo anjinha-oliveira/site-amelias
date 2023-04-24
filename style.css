@@ -28,12 +28,14 @@ picture > img {
 }
 
 main {
-    margin: 36px 27px 19px;
+    margin: 36px 27px 36px;
     margin-top: auto;
     display: flex;
     padding: 26px;
     box-shadow: 3px 4px 13px 0px #3a3a3a52;
     background-color: #a6a6a654;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 div > h1 {
@@ -78,6 +80,8 @@ article > p {
     font-family: roboto;
     font-style: normal;
     line-height: 25px;
+    text-indent: 11px;
+    text-align: start;
 }
 
 footer {
