@@ -48,7 +48,7 @@ h1.history{
     text-align: center;
     font-family: 'amelias';
     font-weight: bold;
-    font-size: x-large;
+    font-size: 25px;
     letter-spacing: 4px;
 }
 
@@ -72,6 +72,12 @@ a {
     font-family: math, sans-serif;
     padding: 5px;
     font-size: medium;
+}
+article > p {
+    font-size: 18px;
+    font-family: roboto;
+    font-style: normal;
+    line-height: 25px;
 }
 
 footer {
