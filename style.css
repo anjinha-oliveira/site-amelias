@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: "amelias";
     src: url(fonte/xilosa_.ttf) format(truetype);
@@ -13,40 +14,42 @@ body {
 .header {
     font-size: x-large;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     padding: 30px;
     flex-direction: column;
-
-    @media screen (min-width: 600px){
-        flex-direction: row;
-    }
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    align-items: center;
 }
-.header img {
-    margin-bottom: 30px;
-    width: 100%;
+
+picture > img {
     min-width: 320px;
     max-width: 600px;
 }
 
 main {
-    margin: 3px;
+    margin: 36px 27px 19px;
+    margin-top: auto;
     display: flex;
     padding: 26px;
+    box-shadow: 3px 4px 13px 0px #3a3a3a52;
+    background-color: #a6a6a654;
 }
 
-h1 {
+div > h1 {
     font-family: 'amelias';
     text-align: center;
     color: #0D0D0D;
     margin: auto;   
+    margin-top: 30px;
 }
 
-
-h2{
-    font-family: 'amelias';
+h1.history{
     text-align: center;
-    color: #0D0D0D;
-    margin: auto;
+    font-family: 'amelias';
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 4px;
 }
 
 nav {
@@ -55,11 +58,20 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav > a:hover {
+    background-color: #A6A6A6;
+    color: #0D0D0D;
+    border-radius: 5px;
+    transition-duration: .5s;
+    
+}
 
 a {
     color: white;
     text-decoration: none;
     font-family: math, sans-serif;
+    padding: 5px;
+    font-size: medium;
 }
 
 footer {
@@ -67,9 +79,12 @@ footer {
     background-color: #0D0D0D;
     padding: 4px;
 }
+
 footer > a:hover {
-    color: rgb(205, 82, 205);
-    text-decoration: underline;
+    background-color: #A6A6A6;
+    color: #0D0D0D;
+    border-radius: 5px;
+    transition-duration: .5s;
 }
 
 .hidden {
